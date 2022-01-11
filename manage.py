@@ -19,4 +19,5 @@ def main():
 
 
 if __name__ == '__main__':
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'boutique_ado.settings'
     main()
